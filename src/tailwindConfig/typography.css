@@ -1,0 +1,154 @@
+@layer base {
+  :root {
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --text-6xl: 3.75rem;
+    --text-7xl: 4.5rem;
+    --text-8xl: 6rem;
+    --text-9xl: 8rem;
+
+    --leading-xs: 1rem;
+    --leading-sm: 1.25rem;
+    --leading-base: 1.5rem;
+    --leading-lg: 1.75rem;
+    --leading-xl: 1.75rem;
+    --leading-2xl: 2rem;
+    --leading-3xl: 2.25rem;
+    --leading-4xl: 2.5rem;
+    --leading-5xl: 1;
+    --leading-6xl: 1;
+    --leading-7xl: 1;
+    --leading-8xl: 1;
+    --leading-9xl: 1;
+  }
+
+  /* Tablet breakpoint */
+  @media (max-width: 1023px) {
+    :root {
+      --text-xs: 0.75rem;
+      --text-sm: 0.75rem;
+      --text-base: 0.875rem;
+      --text-lg: 1rem;
+      --text-xl: 1.125rem;
+      --text-2xl: 1.25rem;
+      --text-3xl: 1.5rem;
+      --text-4xl: 1.875rem;
+      --text-5xl: 2.25rem;
+      --text-6xl: 3rem;
+      --text-7xl: 3.75rem;
+      --text-8xl: 4.5rem;
+      --text-9xl: 6rem;
+
+      --leading-xs: 1rem;
+      --leading-sm: 1rem;
+      --leading-base: 1.25rem;
+      --leading-lg: 1.5rem;
+      --leading-xl: 1.5rem;
+      --leading-2xl: 1.75rem;
+      --leading-3xl: 2rem;
+      --leading-4xl: 2.25rem;
+    }
+  }
+
+  /* Mobile breakpoint */
+  @media (max-width: 767px) {
+    :root {
+      --text-xs: 0.75rem;
+      --text-sm: 0.75rem;
+      --text-base: 0.75rem;
+      --text-lg: 0.875rem;
+      --text-xl: 0.875rem;
+      --text-2xl: 1rem;
+      --text-3xl: 1.125rem;
+      --text-4xl: 1.25rem;
+      --text-5xl: 1.5rem;
+      --text-6xl: 1.875rem;
+      --text-7xl: 2.25rem;
+      --text-8xl: 3rem;
+      --text-9xl: 3.75rem;
+
+      --leading-xs: 1rem;
+      --leading-sm: 1rem;
+      --leading-base: 1rem;
+      --leading-lg: 1.25rem;
+      --leading-xl: 1.25rem;
+      --leading-2xl: 1.5rem;
+      --leading-3xl: 1.5rem;
+      --leading-4xl: 1.75rem;
+    }
+  }
+}
+
+@layer utilities {
+  .text-xs {
+    font-size: var(--text-xs);
+    line-height: var(--leading-xs);
+  }
+
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--leading-sm);
+  }
+
+  .text-base {
+    font-size: var(--text-base);
+    line-height: var(--leading-base);
+  }
+
+  .text-lg {
+    font-size: var(--text-lg);
+    line-height: var(--leading-lg);
+  }
+
+  .text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--leading-xl);
+  }
+
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--leading-2xl);
+  }
+
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--leading-3xl);
+  }
+
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--leading-4xl);
+  }
+
+  .text-5xl {
+    font-size: var(--text-5xl);
+    line-height: var(--leading-5xl);
+  }
+
+  .text-6xl {
+    font-size: var(--text-6xl);
+    line-height: var(--leading-6xl);
+  }
+
+  .text-7xl {
+    font-size: var(--text-7xl);
+    line-height: var(--leading-7xl);
+  }
+
+  .text-8xl {
+    font-size: var(--text-8xl);
+    line-height: var(--leading-8xl);
+  }
+
+  .text-9xl {
+    font-size: var(--text-9xl);
+    line-height: var(--leading-9xl);
+  }
+}

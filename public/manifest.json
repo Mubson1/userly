@@ -1,0 +1,16 @@
+{
+  "short_name": "Userly",
+  "name": "Find About User Details",
+  "icons": [
+    ,
+    {
+      "src": "cute-panda.jpeg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
